@@ -1,0 +1,70 @@
+[0.012s] Invoking command in '/home/adwait/workspace/ros2_packages/cam_info_publisher/build/cam_info_publisher': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy WSLENV=ELECTRON_RUN_AS_NODE/w: /usr/bin/cmake /home/adwait/workspace/ros2_packages/cam_info_publisher -DCMAKE_INSTALL_PREFIX=/home/adwait/workspace/ros2_packages/cam_info_publisher/install/cam_info_publisher
+[0.186s] -- The C compiler identification is GNU 9.4.0
+[0.379s] -- The CXX compiler identification is GNU 9.4.0
+[0.446s] -- Check for working C compiler: /usr/bin/cc
+[0.588s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.591s] -- Detecting C compiler ABI info
+[0.673s] -- Detecting C compiler ABI info - done
+[0.680s] -- Detecting C compile features
+[0.680s] -- Detecting C compile features - done
+[0.683s] -- Check for working CXX compiler: /usr/bin/c++
+[0.762s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.763s] -- Detecting CXX compiler ABI info
+[0.845s] -- Detecting CXX compiler ABI info - done
+[0.852s] -- Detecting CXX compile features
+[0.852s] -- Detecting CXX compile features - done
+[0.860s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.877s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[0.877s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.999s] -- Found rclcpp: 2.4.3 (/opt/ros/foxy/share/rclcpp/cmake)
+[1.157s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.168s] -- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[1.820s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[2.290s] -- Found FastRTPS: /opt/ros/foxy/include  
+[3.298s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[3.346s] -- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[3.347s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[3.349s] -- Looking for pthread.h
+[3.447s] -- Looking for pthread.h - found
+[3.447s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[3.530s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[3.530s] -- Looking for pthread_create in pthreads
+[3.602s] -- Looking for pthread_create in pthreads - not found
+[3.602s] -- Looking for pthread_create in pthread
+[3.680s] -- Looking for pthread_create in pthread - found
+[3.680s] -- Found Threads: TRUE  
+[3.786s] -- Found sensor_msgs: 2.0.5 (/opt/ros/foxy/share/sensor_msgs/cmake)
+[3.861s] -- Found cv_bridge: 3.0.7 (/opt/ros/foxy/share/cv_bridge/cmake)
+[3.879s] -- Found image_transport: 2.4.0 (/opt/ros/foxy/share/image_transport/cmake)
+[4.479s] -- Configuring done
+[4.496s] -- Generating done
+[4.502s] -- Build files have been written to: /home/adwait/workspace/ros2_packages/cam_info_publisher/build/cam_info_publisher
+[4.508s] Invoked command in '/home/adwait/workspace/ros2_packages/cam_info_publisher/build/cam_info_publisher' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy WSLENV=ELECTRON_RUN_AS_NODE/w: /usr/bin/cmake /home/adwait/workspace/ros2_packages/cam_info_publisher -DCMAKE_INSTALL_PREFIX=/home/adwait/workspace/ros2_packages/cam_info_publisher/install/cam_info_publisher
+[4.511s] Invoking command in '/home/adwait/workspace/ros2_packages/cam_info_publisher/build/cam_info_publisher': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy WSLENV=ELECTRON_RUN_AS_NODE/w: /usr/bin/cmake --build /home/adwait/workspace/ros2_packages/cam_info_publisher/build/cam_info_publisher -- -j20 -l20
+[4.534s] [35m[1mScanning dependencies of target cam_info_publisher[0m
+[4.629s] [ 50%] [32mBuilding CXX object CMakeFiles/cam_info_publisher.dir/src/cam_info_publisher.cpp.o[0m
+[8.128s] [100%] [32m[1mLinking CXX executable cam_info_publisher[0m
+[8.376s] [100%] Built target cam_info_publisher
+[8.383s] Invoked command in '/home/adwait/workspace/ros2_packages/cam_info_publisher/build/cam_info_publisher' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy WSLENV=ELECTRON_RUN_AS_NODE/w: /usr/bin/cmake --build /home/adwait/workspace/ros2_packages/cam_info_publisher/build/cam_info_publisher -- -j20 -l20
+[8.391s] Invoking command in '/home/adwait/workspace/ros2_packages/cam_info_publisher/build/cam_info_publisher': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy WSLENV=ELECTRON_RUN_AS_NODE/w: /usr/bin/cmake --install /home/adwait/workspace/ros2_packages/cam_info_publisher/build/cam_info_publisher
+[8.395s] -- Install configuration: ""
+[8.395s] -- Installing: /home/adwait/workspace/ros2_packages/cam_info_publisher/install/cam_info_publisher/lib/cam_info_publisher/cam_info_publisher
+[8.397s] -- Set runtime path of "/home/adwait/workspace/ros2_packages/cam_info_publisher/install/cam_info_publisher/lib/cam_info_publisher/cam_info_publisher" to ""
+[8.397s] -- Installing: /home/adwait/workspace/ros2_packages/cam_info_publisher/install/cam_info_publisher/share/cam_info_publisher/launch
+[8.397s] -- Installing: /home/adwait/workspace/ros2_packages/cam_info_publisher/install/cam_info_publisher/share/cam_info_publisher/launch/cam_info_publisher.launch.py
+[8.397s] -- Installing: /home/adwait/workspace/ros2_packages/cam_info_publisher/install/cam_info_publisher/share/ament_index/resource_index/package_run_dependencies/cam_info_publisher
+[8.397s] -- Installing: /home/adwait/workspace/ros2_packages/cam_info_publisher/install/cam_info_publisher/share/ament_index/resource_index/parent_prefix_path/cam_info_publisher
+[8.397s] -- Installing: /home/adwait/workspace/ros2_packages/cam_info_publisher/install/cam_info_publisher/share/cam_info_publisher/environment/ament_prefix_path.sh
+[8.398s] -- Installing: /home/adwait/workspace/ros2_packages/cam_info_publisher/install/cam_info_publisher/share/cam_info_publisher/environment/ament_prefix_path.dsv
+[8.398s] -- Installing: /home/adwait/workspace/ros2_packages/cam_info_publisher/install/cam_info_publisher/share/cam_info_publisher/environment/path.sh
+[8.398s] -- Installing: /home/adwait/workspace/ros2_packages/cam_info_publisher/install/cam_info_publisher/share/cam_info_publisher/environment/path.dsv
+[8.398s] -- Installing: /home/adwait/workspace/ros2_packages/cam_info_publisher/install/cam_info_publisher/share/cam_info_publisher/local_setup.bash
+[8.398s] -- Installing: /home/adwait/workspace/ros2_packages/cam_info_publisher/install/cam_info_publisher/share/cam_info_publisher/local_setup.sh
+[8.398s] -- Installing: /home/adwait/workspace/ros2_packages/cam_info_publisher/install/cam_info_publisher/share/cam_info_publisher/local_setup.zsh
+[8.398s] -- Installing: /home/adwait/workspace/ros2_packages/cam_info_publisher/install/cam_info_publisher/share/cam_info_publisher/local_setup.dsv
+[8.398s] -- Installing: /home/adwait/workspace/ros2_packages/cam_info_publisher/install/cam_info_publisher/share/cam_info_publisher/package.dsv
+[8.398s] -- Installing: /home/adwait/workspace/ros2_packages/cam_info_publisher/install/cam_info_publisher/share/ament_index/resource_index/packages/cam_info_publisher
+[8.398s] -- Installing: /home/adwait/workspace/ros2_packages/cam_info_publisher/install/cam_info_publisher/share/cam_info_publisher/cmake/cam_info_publisherConfig.cmake
+[8.398s] -- Installing: /home/adwait/workspace/ros2_packages/cam_info_publisher/install/cam_info_publisher/share/cam_info_publisher/cmake/cam_info_publisherConfig-version.cmake
+[8.398s] -- Installing: /home/adwait/workspace/ros2_packages/cam_info_publisher/install/cam_info_publisher/share/cam_info_publisher/package.xml
+[8.399s] Invoked command in '/home/adwait/workspace/ros2_packages/cam_info_publisher/build/cam_info_publisher' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy WSLENV=ELECTRON_RUN_AS_NODE/w: /usr/bin/cmake --install /home/adwait/workspace/ros2_packages/cam_info_publisher/build/cam_info_publisher
