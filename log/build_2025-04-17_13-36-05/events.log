@@ -1,0 +1,167 @@
+[0.000000] (-) TimerEvent: {}
+[0.000512] (cam_info_publisher) JobQueued: {'identifier': 'cam_info_publisher', 'dependencies': OrderedDict()}
+[0.001014] (cam_info_publisher) JobStarted: {'identifier': 'cam_info_publisher'}
+[0.006637] (cam_info_publisher) JobProgress: {'identifier': 'cam_info_publisher', 'progress': 'cmake'}
+[0.007547] (cam_info_publisher) Command: {'cmd': ['/usr/bin/cmake', '/home/adwait/workspace/ros2_packages/cam_info_publisher', '-DCMAKE_INSTALL_PREFIX=/home/adwait/workspace/ros2_packages/cam_info_publisher/install/cam_info_publisher'], 'cwd': '/home/adwait/workspace/ros2_packages/cam_info_publisher/build/cam_info_publisher', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'adwait'), ('GIT_ASKPASS', '/home/adwait/.vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('MOTD_SHOWN', 'update-motd'), ('HOME', '/home/adwait'), ('OLDPWD', '/home/adwait/workspace/ros2_packages'), ('TERM_PROGRAM_VERSION', '1.85.2'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-b13b2645-7cb5-4044-9c15-a612490205ce.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/adwait/.vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/adwait/.vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/node'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('WSL_DISTRO_NAME', 'Ubuntu-20.04'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/adwait/workspace/ros2_packages/cam_info_publisher/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'adwait'), ('NAME', 'Code'), ('WSL_INTEROP', '/run/WSL/50712_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/adwait/.vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/bin/remote-cli:/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA NvDLISR:/mnt/c/Program Files/Microsoft SQL Server/150/Tools/Binn/:/mnt/c/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/:/mnt/c/Program Files (x86)/Incredibuild:/mnt/c/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/:/mnt/c/Users/adwai/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/adwai/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Users/adwai/.dotnet/tools:/mnt/c/Users/adwai/AppData/Local/GitHubDesktop/bin:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-c094aa1fb0.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/home/adwait/workspace/ros2_packages/cam_info_publisher/install/cam_info_publisher:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/adwait/workspace/ros2_packages/cam_info_publisher/build/cam_info_publisher'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('CMAKE_PREFIX_PATH', '/home/adwait/workspace/ros2_packages/cam_info_publisher/install/cam_info_publisher:/opt/ros/foxy'), ('WSLENV', 'ELECTRON_RUN_AS_NODE/w:')]), 'shell': False}
+[0.099509] (-) TimerEvent: {}
+[0.199942] (-) TimerEvent: {}
+[0.217739] (cam_info_publisher) StdoutLine: {'line': b'-- The C compiler identification is GNU 9.4.0\n'}
+[0.300056] (-) TimerEvent: {}
+[0.393534] (cam_info_publisher) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 9.4.0\n'}
+[0.400229] (-) TimerEvent: {}
+[0.459348] (cam_info_publisher) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc\n'}
+[0.500338] (-) TimerEvent: {}
+[0.537934] (cam_info_publisher) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc -- works\n'}
+[0.539783] (cam_info_publisher) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.600440] (-) TimerEvent: {}
+[0.633357] (cam_info_publisher) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.641010] (cam_info_publisher) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.642041] (cam_info_publisher) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.646342] (cam_info_publisher) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++\n'}
+[0.700549] (-) TimerEvent: {}
+[0.736645] (cam_info_publisher) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ -- works\n'}
+[0.737288] (cam_info_publisher) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.800653] (-) TimerEvent: {}
+[0.817306] (cam_info_publisher) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.823705] (cam_info_publisher) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.823978] (cam_info_publisher) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.829900] (cam_info_publisher) StdoutLine: {'line': b'-- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)\n'}
+[0.847413] (cam_info_publisher) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") \n'}
+[0.847549] (cam_info_publisher) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[0.900849] (-) TimerEvent: {}
+[0.962337] (cam_info_publisher) StdoutLine: {'line': b'-- Found rclcpp: 2.4.3 (/opt/ros/foxy/share/rclcpp/cmake)\n'}
+[1.001066] (-) TimerEvent: {}
+[1.094252] (cam_info_publisher) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.101169] (-) TimerEvent: {}
+[1.105241] (cam_info_publisher) StdoutLine: {'line': b'-- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)\n'}
+[1.201290] (-) TimerEvent: {}
+[1.301606] (-) TimerEvent: {}
+[1.401905] (-) TimerEvent: {}
+[1.502222] (-) TimerEvent: {}
+[1.602546] (-) TimerEvent: {}
+[1.676259] (cam_info_publisher) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  \n'}
+[1.702639] (-) TimerEvent: {}
+[1.802916] (-) TimerEvent: {}
+[1.903233] (-) TimerEvent: {}
+[2.003676] (-) TimerEvent: {}
+[2.104145] (-) TimerEvent: {}
+[2.204499] (-) TimerEvent: {}
+[2.304817] (-) TimerEvent: {}
+[2.405204] (-) TimerEvent: {}
+[2.452723] (cam_info_publisher) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/foxy/include  \n'}
+[2.505357] (-) TimerEvent: {}
+[2.605667] (-) TimerEvent: {}
+[2.705954] (-) TimerEvent: {}
+[2.806246] (-) TimerEvent: {}
+[2.906555] (-) TimerEvent: {}
+[3.006865] (-) TimerEvent: {}
+[3.107182] (-) TimerEvent: {}
+[3.207500] (-) TimerEvent: {}
+[3.307860] (-) TimerEvent: {}
+[3.408248] (-) TimerEvent: {}
+[3.508648] (-) TimerEvent: {}
+[3.608945] (-) TimerEvent: {}
+[3.653831] (cam_info_publisher) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[3.709079] (-) TimerEvent: {}
+[3.713709] (cam_info_publisher) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)\n'}
+[3.715959] (cam_info_publisher) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[3.717831] (cam_info_publisher) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[3.795321] (cam_info_publisher) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[3.795538] (cam_info_publisher) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[3.809183] (-) TimerEvent: {}
+[3.878070] (cam_info_publisher) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed\n'}
+[3.878248] (cam_info_publisher) StdoutLine: {'line': b'-- Looking for pthread_create in pthreads\n'}
+[3.909277] (-) TimerEvent: {}
+[3.954073] (cam_info_publisher) StdoutLine: {'line': b'-- Looking for pthread_create in pthreads - not found\n'}
+[3.954403] (cam_info_publisher) StdoutLine: {'line': b'-- Looking for pthread_create in pthread\n'}
+[4.009395] (-) TimerEvent: {}
+[4.050715] (cam_info_publisher) StdoutLine: {'line': b'-- Looking for pthread_create in pthread - found\n'}
+[4.051535] (cam_info_publisher) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[4.109558] (-) TimerEvent: {}
+[4.196589] (cam_info_publisher) StdoutLine: {'line': b'-- Found sensor_msgs: 2.0.5 (/opt/ros/foxy/share/sensor_msgs/cmake)\n'}
+[4.209738] (-) TimerEvent: {}
+[4.277728] (cam_info_publisher) StdoutLine: {'line': b'-- Found cv_bridge: 3.0.7 (/opt/ros/foxy/share/cv_bridge/cmake)\n'}
+[4.295936] (cam_info_publisher) StdoutLine: {'line': b'-- Found image_transport: 2.4.0 (/opt/ros/foxy/share/image_transport/cmake)\n'}
+[4.309821] (-) TimerEvent: {}
+[4.410117] (-) TimerEvent: {}
+[4.510557] (-) TimerEvent: {}
+[4.610868] (-) TimerEvent: {}
+[4.711254] (-) TimerEvent: {}
+[4.811531] (-) TimerEvent: {}
+[4.911906] (-) TimerEvent: {}
+[4.928440] (cam_info_publisher) StdoutLine: {'line': b'-- Configuring done\n'}
+[4.948124] (cam_info_publisher) StdoutLine: {'line': b'-- Generating done\n'}
+[4.954129] (cam_info_publisher) StdoutLine: {'line': b'-- Build files have been written to: /home/adwait/workspace/ros2_packages/cam_info_publisher/build/cam_info_publisher\n'}
+[4.961372] (cam_info_publisher) CommandEnded: {'returncode': 0}
+[4.962093] (cam_info_publisher) JobProgress: {'identifier': 'cam_info_publisher', 'progress': 'build'}
+[4.962410] (cam_info_publisher) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/adwait/workspace/ros2_packages/cam_info_publisher/build/cam_info_publisher', '--', '-j20', '-l20'], 'cwd': '/home/adwait/workspace/ros2_packages/cam_info_publisher/build/cam_info_publisher', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'adwait'), ('GIT_ASKPASS', '/home/adwait/.vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('MOTD_SHOWN', 'update-motd'), ('HOME', '/home/adwait'), ('OLDPWD', '/home/adwait/workspace/ros2_packages'), ('TERM_PROGRAM_VERSION', '1.85.2'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-b13b2645-7cb5-4044-9c15-a612490205ce.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/adwait/.vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/adwait/.vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/node'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('WSL_DISTRO_NAME', 'Ubuntu-20.04'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/adwait/workspace/ros2_packages/cam_info_publisher/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'adwait'), ('NAME', 'Code'), ('WSL_INTEROP', '/run/WSL/50712_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/adwait/.vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/bin/remote-cli:/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA NvDLISR:/mnt/c/Program Files/Microsoft SQL Server/150/Tools/Binn/:/mnt/c/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/:/mnt/c/Program Files (x86)/Incredibuild:/mnt/c/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/:/mnt/c/Users/adwai/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/adwai/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Users/adwai/.dotnet/tools:/mnt/c/Users/adwai/AppData/Local/GitHubDesktop/bin:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-c094aa1fb0.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/home/adwait/workspace/ros2_packages/cam_info_publisher/install/cam_info_publisher:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/adwait/workspace/ros2_packages/cam_info_publisher/build/cam_info_publisher'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('CMAKE_PREFIX_PATH', '/home/adwait/workspace/ros2_packages/cam_info_publisher/install/cam_info_publisher:/opt/ros/foxy'), ('WSLENV', 'ELECTRON_RUN_AS_NODE/w:')]), 'shell': False}
+[4.983919] (cam_info_publisher) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target cam_info_publisher\x1b[0m\n'}
+[5.012047] (-) TimerEvent: {}
+[5.082310] (cam_info_publisher) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/cam_info_publisher.dir/src/cam_info_publisher.cpp.o\x1b[0m\n'}
+[5.112184] (-) TimerEvent: {}
+[5.212611] (-) TimerEvent: {}
+[5.312935] (-) TimerEvent: {}
+[5.413370] (-) TimerEvent: {}
+[5.513791] (-) TimerEvent: {}
+[5.614210] (-) TimerEvent: {}
+[5.714686] (-) TimerEvent: {}
+[5.815221] (-) TimerEvent: {}
+[5.915585] (-) TimerEvent: {}
+[6.015996] (-) TimerEvent: {}
+[6.116326] (-) TimerEvent: {}
+[6.216720] (-) TimerEvent: {}
+[6.317067] (-) TimerEvent: {}
+[6.417435] (-) TimerEvent: {}
+[6.517868] (-) TimerEvent: {}
+[6.618207] (-) TimerEvent: {}
+[6.718511] (-) TimerEvent: {}
+[6.818916] (-) TimerEvent: {}
+[6.919290] (-) TimerEvent: {}
+[7.019693] (-) TimerEvent: {}
+[7.120125] (-) TimerEvent: {}
+[7.220786] (-) TimerEvent: {}
+[7.321411] (-) TimerEvent: {}
+[7.421782] (-) TimerEvent: {}
+[7.522149] (-) TimerEvent: {}
+[7.622536] (-) TimerEvent: {}
+[7.722971] (-) TimerEvent: {}
+[7.823544] (-) TimerEvent: {}
+[7.923909] (-) TimerEvent: {}
+[8.024284] (-) TimerEvent: {}
+[8.124699] (-) TimerEvent: {}
+[8.225160] (-) TimerEvent: {}
+[8.325541] (-) TimerEvent: {}
+[8.425960] (-) TimerEvent: {}
+[8.526459] (-) TimerEvent: {}
+[8.604943] (cam_info_publisher) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable cam_info_publisher\x1b[0m\n'}
+[8.626573] (-) TimerEvent: {}
+[8.726919] (-) TimerEvent: {}
+[8.827315] (-) TimerEvent: {}
+[8.904967] (cam_info_publisher) StdoutLine: {'line': b'[100%] Built target cam_info_publisher\n'}
+[8.912608] (cam_info_publisher) CommandEnded: {'returncode': 0}
+[8.914259] (cam_info_publisher) JobProgress: {'identifier': 'cam_info_publisher', 'progress': 'install'}
+[8.919838] (cam_info_publisher) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/adwait/workspace/ros2_packages/cam_info_publisher/build/cam_info_publisher'], 'cwd': '/home/adwait/workspace/ros2_packages/cam_info_publisher/build/cam_info_publisher', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'adwait'), ('GIT_ASKPASS', '/home/adwait/.vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('MOTD_SHOWN', 'update-motd'), ('HOME', '/home/adwait'), ('OLDPWD', '/home/adwait/workspace/ros2_packages'), ('TERM_PROGRAM_VERSION', '1.85.2'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-b13b2645-7cb5-4044-9c15-a612490205ce.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/adwait/.vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/adwait/.vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/node'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('WSL_DISTRO_NAME', 'Ubuntu-20.04'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/adwait/workspace/ros2_packages/cam_info_publisher/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'adwait'), ('NAME', 'Code'), ('WSL_INTEROP', '/run/WSL/50712_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/adwait/.vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/bin/remote-cli:/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA NvDLISR:/mnt/c/Program Files/Microsoft SQL Server/150/Tools/Binn/:/mnt/c/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/:/mnt/c/Program Files (x86)/Incredibuild:/mnt/c/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/:/mnt/c/Users/adwai/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/adwai/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Users/adwai/.dotnet/tools:/mnt/c/Users/adwai/AppData/Local/GitHubDesktop/bin:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-c094aa1fb0.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/home/adwait/workspace/ros2_packages/cam_info_publisher/install/cam_info_publisher:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/adwait/workspace/ros2_packages/cam_info_publisher/build/cam_info_publisher'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('CMAKE_PREFIX_PATH', '/home/adwait/workspace/ros2_packages/cam_info_publisher/install/cam_info_publisher:/opt/ros/foxy'), ('WSLENV', 'ELECTRON_RUN_AS_NODE/w:')]), 'shell': False}
+[8.924273] (cam_info_publisher) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[8.924683] (cam_info_publisher) StdoutLine: {'line': b'-- Installing: /home/adwait/workspace/ros2_packages/cam_info_publisher/install/cam_info_publisher/lib/cam_info_publisher/cam_info_publisher\n'}
+[8.926945] (cam_info_publisher) StdoutLine: {'line': b'-- Set runtime path of "/home/adwait/workspace/ros2_packages/cam_info_publisher/install/cam_info_publisher/lib/cam_info_publisher/cam_info_publisher" to ""\n'}
+[8.927020] (cam_info_publisher) StdoutLine: {'line': b'-- Installing: /home/adwait/workspace/ros2_packages/cam_info_publisher/install/cam_info_publisher/share/cam_info_publisher/launch\n'}
+[8.927216] (cam_info_publisher) StdoutLine: {'line': b'-- Installing: /home/adwait/workspace/ros2_packages/cam_info_publisher/install/cam_info_publisher/share/cam_info_publisher/launch/cam_info_publisher.launch.py\n'}
+[8.927457] (cam_info_publisher) StdoutLine: {'line': b'-- Installing: /home/adwait/workspace/ros2_packages/cam_info_publisher/install/cam_info_publisher/share/ament_index/resource_index/package_run_dependencies/cam_info_publisher\n'}
+[8.927527] (-) TimerEvent: {}
+[8.927745] (cam_info_publisher) StdoutLine: {'line': b'-- Installing: /home/adwait/workspace/ros2_packages/cam_info_publisher/install/cam_info_publisher/share/ament_index/resource_index/parent_prefix_path/cam_info_publisher\n'}
+[8.927803] (cam_info_publisher) StdoutLine: {'line': b'-- Installing: /home/adwait/workspace/ros2_packages/cam_info_publisher/install/cam_info_publisher/share/cam_info_publisher/environment/ament_prefix_path.sh\n'}
+[8.927978] (cam_info_publisher) StdoutLine: {'line': b'-- Installing: /home/adwait/workspace/ros2_packages/cam_info_publisher/install/cam_info_publisher/share/cam_info_publisher/environment/ament_prefix_path.dsv\n'}
+[8.928106] (cam_info_publisher) StdoutLine: {'line': b'-- Installing: /home/adwait/workspace/ros2_packages/cam_info_publisher/install/cam_info_publisher/share/cam_info_publisher/environment/path.sh\n'}
+[8.928353] (cam_info_publisher) StdoutLine: {'line': b'-- Installing: /home/adwait/workspace/ros2_packages/cam_info_publisher/install/cam_info_publisher/share/cam_info_publisher/environment/path.dsv\n'}
+[8.928454] (cam_info_publisher) StdoutLine: {'line': b'-- Installing: /home/adwait/workspace/ros2_packages/cam_info_publisher/install/cam_info_publisher/share/cam_info_publisher/local_setup.bash\n'}
+[8.928653] (cam_info_publisher) StdoutLine: {'line': b'-- Installing: /home/adwait/workspace/ros2_packages/cam_info_publisher/install/cam_info_publisher/share/cam_info_publisher/local_setup.sh\n'}
+[8.928696] (cam_info_publisher) StdoutLine: {'line': b'-- Installing: /home/adwait/workspace/ros2_packages/cam_info_publisher/install/cam_info_publisher/share/cam_info_publisher/local_setup.zsh\n'}
+[8.928726] (cam_info_publisher) StdoutLine: {'line': b'-- Installing: /home/adwait/workspace/ros2_packages/cam_info_publisher/install/cam_info_publisher/share/cam_info_publisher/local_setup.dsv\n'}
+[8.928821] (cam_info_publisher) StdoutLine: {'line': b'-- Installing: /home/adwait/workspace/ros2_packages/cam_info_publisher/install/cam_info_publisher/share/cam_info_publisher/package.dsv\n'}
+[8.928942] (cam_info_publisher) StdoutLine: {'line': b'-- Installing: /home/adwait/workspace/ros2_packages/cam_info_publisher/install/cam_info_publisher/share/ament_index/resource_index/packages/cam_info_publisher\n'}
+[8.929428] (cam_info_publisher) StdoutLine: {'line': b'-- Installing: /home/adwait/workspace/ros2_packages/cam_info_publisher/install/cam_info_publisher/share/cam_info_publisher/cmake/cam_info_publisherConfig.cmake\n'}
+[8.929503] (cam_info_publisher) StdoutLine: {'line': b'-- Installing: /home/adwait/workspace/ros2_packages/cam_info_publisher/install/cam_info_publisher/share/cam_info_publisher/cmake/cam_info_publisherConfig-version.cmake\n'}
+[8.929537] (cam_info_publisher) StdoutLine: {'line': b'-- Installing: /home/adwait/workspace/ros2_packages/cam_info_publisher/install/cam_info_publisher/share/cam_info_publisher/package.xml\n'}
+[8.930593] (cam_info_publisher) CommandEnded: {'returncode': 0}
+[8.942057] (cam_info_publisher) JobEnded: {'identifier': 'cam_info_publisher', 'rc': 0}
+[8.942885] (-) EventReactorShutdown: {}

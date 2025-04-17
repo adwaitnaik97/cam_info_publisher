@@ -6,3 +6,6 @@ logs
 .vscode
 .vscode/c_cpp_properties.json
 .vscode/settings.json
+
+config/8380/**.yaml:Zone.Identifier
+config/8381/**.yaml:Zone.Identifier
