@@ -19,6 +19,6 @@ def generate_launch_description():
             executable='cam_info_publisher',             # The compiled executable name
             name='cam_info_publisher',                   # Node name (can be the same as executable)
             output='screen',                             # Output to the terminal
-            parameters=[config_file_path]                # Load the YAML file as parameters
+            parameters=[config_file_path],                # Load the YAML file as parameters
         ),
     ])

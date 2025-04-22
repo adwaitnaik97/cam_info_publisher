@@ -6,16 +6,24 @@
 #include <opencv2/opencv.hpp>
 #include <string>
 #include <vector>
+#include <functional>
+#include <memory>
 
 #include "helper_functions.hpp"
 
 class CalibrationPublisher : public rclcpp::Node
 {
 public:
-  CalibrationPublisher() : Node("calibration_publisher") {}
+  CalibrationPublisher() : rclcpp::Node("CalibrationPublisher")
+  {
+  }
 
+  // ImageTransport needs to be initialized after the node has been fully constructed
   void init()
   {
+    // Create ImageTransport after node is fully constructed (this is where shared_from_this is safe to use)
+    it_ = std::make_shared<image_transport::ImageTransport>(shared_from_this());
+
     // Publisher
     pub_ = this->create_publisher<sensor_msgs::msg::CameraInfo>("camera_info", 10);
 
@@ -44,16 +52,17 @@ public:
     cam_info_msg_.r = VectorToArray<9>(FlattenMatrix(rectification_matrix_));
     cam_info_msg_.p = VectorToArray<12>(FlattenMatrix(projection_matrix_));
 
-    // ImageTransport setup (safe now because shared_from_this() works after construction)
-    image_transport::ImageTransport it(shared_from_this());
-    image_sub_ = it.subscribe("image_raw", 10,
-                              std::bind(&CalibrationPublisher::ImageCallback, this, std::placeholders::_1));
+    // Subscribe to image_raw topic and bind the callback function
+    image_sub_ = it_->subscribe("image_raw", 10,
+                                std::bind(&CalibrationPublisher::ImageCallback, this, std::placeholders::_1));
+
+    RCLCPP_INFO(this->get_logger(), "Subscribed to image_raw");
   }
 
 private:
-  image_transport::Subscriber image_sub_;
   rclcpp::Publisher<sensor_msgs::msg::CameraInfo>::SharedPtr pub_;
-
+  image_transport::Subscriber image_sub_;
+  std::shared_ptr<image_transport::ImageTransport> it_;
   sensor_msgs::msg::CameraInfo cam_info_msg_;
 
   std::string distortion_model_;
@@ -69,6 +78,7 @@ private:
     cam_info_msg_.width = msg->width;
     cam_info_msg_.height = msg->height;
     pub_->publish(cam_info_msg_);
+    RCLCPP_INFO(this->get_logger(), "Image received — publishing camera_info");
   }
 
   void ReadMatrixFromParam(const std::string &param, cv::Mat &matrix)
@@ -86,36 +96,17 @@ private:
 
     cv::Mat(rows, cols, CV_64F, data.data()).copyTo(matrix);
   }
-
-  std::vector<double> FlattenMatrix(const cv::Mat &mat)
-  {
-    std::vector<double> flat;
-    for (int r = 0; r < mat.rows; ++r)
-      for (int c = 0; c < mat.cols; ++c)
-        flat.push_back(mat.at<double>(r, c));
-    return flat;
-  }
-
-  std::vector<double> FlattenMatrixToVec(const cv::Mat &mat)
-  {
-    return std::vector<double>((double *)mat.datastart, (double *)mat.dataend);
-  }
-
-  template <std::size_t N>
-  std::array<double, N> VectorToArray(const std::vector<double> &vec)
-  {
-    std::array<double, N> arr{};
-    std::copy_n(vec.begin(), std::min(N, vec.size()), arr.begin());
-    return arr;
-  }
 };
 
 int main(int argc, char **argv)
 {
   rclcpp::init(argc, argv);
-  auto node = std::make_shared<CalibrationPublisher>();
-  node->init();  // safe to use shared_from_this() now
-  rclcpp::spin(node);
-  rclcpp::shutdown();
+  while (rclcpp::ok())
+  {
+    auto node = std::make_shared<CalibrationPublisher>();
+    node->init();
+    rclcpp::spin(node);
+    rclcpp::shutdown();
+  }
   return 0;
 }

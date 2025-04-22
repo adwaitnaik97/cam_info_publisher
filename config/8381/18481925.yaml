@@ -1,4 +1,3 @@
-%YAML:1.0
 ---
 CameraExtrinsicMat: !!opencv-matrix
    rows: 4
