@@ -37,4 +37,4 @@ ros2 run ros2 run cam_info_publisher test_publisher /home/adwait/workspace/ros2_
 
 This video demonstrates the camera parameters being published on the `/camera_info` topic.
 
-![Video](https://github.com/adwaitnaik97/cam_info_publisher/blob/master/extras/cam_info_publisher.mp4)
+[Watch the demonstration video](https://github.com/adwaitnaik97/cam_info_publisher/blob/master/extras/cam_info_publisher.mp4)
