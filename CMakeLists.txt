@@ -20,10 +20,10 @@ find_package(std_msgs REQUIRED)
 find_package(sensor_msgs REQUIRED)
 find_package(cv_bridge REQUIRED)
 find_package(image_transport REQUIRED)
+find_package(rosidl_default_generators REQUIRED)
 
 # Add executable
 add_executable(cam_info_publisher src/cam_info_publisher.cpp)
-include_directories(include)
 
 # Link dependencies
 ament_target_dependencies(cam_info_publisher
@@ -33,6 +33,17 @@ ament_target_dependencies(cam_info_publisher
   cv_bridge
   image_transport
 )
+
+add_executable(test_publisher src/test_publisher.cpp)
+ament_target_dependencies(test_publisher
+  rclcpp
+  std_msgs
+  sensor_msgs
+  cv_bridge
+  image_transport
+)
+
+include_directories(include)
 
 # # Uncomment after including tests
 # if(BUILD_TESTING)
@@ -48,6 +59,9 @@ ament_target_dependencies(cam_info_publisher
 
 # Install the executable
 install(TARGETS cam_info_publisher
+  DESTINATION lib/${PROJECT_NAME}
+)
+install(TARGETS test_publisher
   DESTINATION lib/${PROJECT_NAME}
 )
 

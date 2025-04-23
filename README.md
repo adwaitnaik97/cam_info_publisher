@@ -1,5 +1,7 @@
 # Camera Info Publisher
 
+Migration of [camera info publisher](https://github.com/aidrivers/cam_info_publisher) package to ROS2.
+
 # Usage
 
 ### Step 1: Install ROS 2 (preferably Foxy or the version compatible with Ubuntu 20.04 LTS)
