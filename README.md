@@ -30,7 +30,7 @@ ros2 topic list #Window2 | Output: {'/camera_info', '/image_raw'}
 
 ros2 topic echo /camera_info #Window3
 
-ros2 run ros2 run cam_info_publisher test_publisher /home/adwait/workspace/ros2_packages/cam_info_publisher/extras/TurtleBot4.jpg #Window4 replace the image path with your custom path
+ros2 run cam_info_publisher test_publisher /home/adwait/workspace/ros2_packages/cam_info_publisher/extras/TurtleBot4.jpg #Window4 replace the image path with your custom path
 ```
 
 # Testing

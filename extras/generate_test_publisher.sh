@@ -1,3 +1,11 @@
+#!/bin/bash
+
+# This script generates the test_publisher.cpp file
+echo "Generating test_publisher.cpp..."
+
+cat <<EOF > "${CMAKE_BINARY_DIR}/src/test_publisher.cpp"
+// Generated test publisher file
+
 // Copyright 2021, Open Source Robotics Foundation, Inc.
 //
 // Licensed under the Apache License, Version 2.0 (the "License");
@@ -37,3 +45,7 @@ int main(int argc, char ** argv)
     loop_rate.sleep();
   }
 }
+
+EOF
+echo "test_publisher.cpp generated at ${CMAKE_BINARY_DIR}/src/test_publisher.cpp"
+echo "Generating test_publisher.cpp complete."

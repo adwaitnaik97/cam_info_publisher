@@ -39,12 +39,15 @@
 -- Configuring done
 -- Generating done
 -- Build files have been written to: /home/adwait/workspace/ros2_packages/cam_info_publisher/build/cam_info_publisher
+[35m[1mScanning dependencies of target generate_test_publisher[0m
 [35m[1mScanning dependencies of target cam_info_publisher[0m
+[ 16%] [34m[1mGenerating test_publisher.cpp with content[0m
+[ 33%] [32mBuilding CXX object CMakeFiles/cam_info_publisher.dir/src/cam_info_publisher.cpp.o[0m
+[ 33%] Built target generate_test_publisher
 [35m[1mScanning dependencies of target test_publisher[0m
-[ 50%] [32mBuilding CXX object CMakeFiles/cam_info_publisher.dir/src/cam_info_publisher.cpp.o[0m
-[ 50%] [32mBuilding CXX object CMakeFiles/test_publisher.dir/src/test_publisher.cpp.o[0m
-[ 75%] [32m[1mLinking CXX executable test_publisher[0m
-[ 75%] Built target test_publisher
+[ 50%] [32mBuilding CXX object CMakeFiles/test_publisher.dir/test_publisher.cpp.o[0m
+[ 66%] [32m[1mLinking CXX executable test_publisher[0m
+[ 83%] Built target test_publisher
 [100%] [32m[1mLinking CXX executable cam_info_publisher[0m
 [100%] Built target cam_info_publisher
 -- Install configuration: ""
@@ -53,7 +56,6 @@
 -- Installing: /home/adwait/workspace/ros2_packages/cam_info_publisher/install/cam_info_publisher/lib/cam_info_publisher/test_publisher
 -- Set runtime path of "/home/adwait/workspace/ros2_packages/cam_info_publisher/install/cam_info_publisher/lib/cam_info_publisher/test_publisher" to ""
 -- Installing: /home/adwait/workspace/ros2_packages/cam_info_publisher/install/cam_info_publisher/share/cam_info_publisher/launch
--- Installing: /home/adwait/workspace/ros2_packages/cam_info_publisher/install/cam_info_publisher/share/cam_info_publisher/launch/test_publisher.launch.py
 -- Installing: /home/adwait/workspace/ros2_packages/cam_info_publisher/install/cam_info_publisher/share/cam_info_publisher/launch/cam_info_publisher.launch.py
 -- Installing: /home/adwait/workspace/ros2_packages/cam_info_publisher/install/cam_info_publisher/share/ament_index/resource_index/package_run_dependencies/cam_info_publisher
 -- Installing: /home/adwait/workspace/ros2_packages/cam_info_publisher/install/cam_info_publisher/share/ament_index/resource_index/parent_prefix_path/cam_info_publisher
